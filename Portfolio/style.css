@@ -1,0 +1,680 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 1000;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(153,153,153,1);
+}
+
+.text h2{
+    font-size: 1.6rem;
+}
+
+.text h2 span{
+    color: crimson;
+    text-decoration: underline;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+    margin: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+}
+
+/* start home Styleing */
+
+#home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#home .img img{
+    width: 400px;
+    height: 500px;
+    box-shadow: 0px 0px 30px 0px rgba(153,153,153,1);
+}
+
+#home .text-logo h2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    font-weight: 50;
+    color: transparent;
+}
+
+#home .text-logo h2:before{
+    content: attr(data-text);
+    left: 50%;
+    top: 0;
+    position: absolute;
+    color: #000;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    animation: typing 7s steps(23) infinite;
+    white-space: nowrap;
+}
+
+@keyframes typing{
+    0%{width: 0%;}
+    50%{width: 100%;}
+    100%{width: 0%;}
+}
+
+
+/* about starting style */
+
+
+#about{
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#about .about-text{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#about .piligrap-text{
+    display: flex;
+    justify-content: center;
+}
+
+
+#about .piligrap-text p{
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 100px;
+    width: 70%;
+    height: 50vh;
+    font-size: 1.2rem;
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.3);
+}
+
+.about-text a{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    display: inline-block;
+    padding: 15px 40px;
+    text-align: center;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 30px;
+    overflow: hidden;
+    transition: 0.2s;
+ }
+ 
+ .about-text a:hover{
+     color: #fff;
+     background-color: #2196f3;
+     border-radius: 5px;
+     transition-delay: 0.6s;
+ }
+ 
+ .about-text a span{
+     position: absolute;
+     display: block;
+ }
+ 
+ .about-text a span:nth-child(1)
+ {
+     top: 0;
+     left: -100%;
+     width: 100%;
+     height: 2px;
+     background: linear-gradient(90deg,transparent,#2196f3);
+ }
+ 
+ .about-text a:hover span:nth-child(1){
+     left: 100%;
+     transition: 1s;
+ }
+ 
+ .about-text a span:nth-child(3)
+ {
+     bottom: 0;
+     right: -100%;
+     width: 100%;
+     height: 2px;
+     background: linear-gradient(180deg,transparent,#2196f3);
+ }
+ 
+ .about-text a:hover span:nth-child(3){
+     right: 100%;
+     transition: 1s;
+ }
+ 
+ .about-text a span:nth-child(2)
+ {
+     top: -100%;
+     right: 0;
+     width: 2px;
+     height: 100%;
+     background: linear-gradient(270deg,transparent,#2196f3);
+ }
+ 
+ .about-text a:hover span:nth-child(2){
+     top: 100%;
+     transition: 1s;
+ }
+ 
+ .about-text a span:nth-child(4)
+ {
+     bottom: -100%;
+     left: 0;
+     width: 2px;
+     height: 100%;
+     background: linear-gradient(360deg,transparent,#2196f3);
+ }
+ 
+ .about-text a:hover span:nth-child(4){
+     bottom: 100%;
+     transition: 1s;
+ }
+
+ /* skills start style */
+
+#skill{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+
+.skill-text{
+    align-items: center;
+}
+
+.skill-text{
+    display: flex;
+    justify-content: center;
+}
+
+.skill-text a{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    align-items: center;
+    display: inline-block;
+    padding: 15px 40px;
+    text-align: center;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 30px;
+    overflow: hidden;
+    transition: 0.2s;
+ }
+ 
+ .skill-text a:hover{
+     color: #fff;
+     background-color: #2196f3;
+     border-radius: 5px;
+     transition-delay: 0.6s;
+ }
+ 
+ .skill-text a span{
+     position: absolute;
+     display: block;
+ }
+ 
+ .skill-text a span:nth-child(1)
+ {
+     top: 0;
+     left: -100%;
+     width: 100%;
+     height: 2px;
+     background: linear-gradient(90deg,transparent,#2196f3);
+ }
+ 
+ .skill-text a:hover span:nth-child(1){
+     left: 100%;
+     transition: 1s;
+ }
+ 
+ .skill-text a span:nth-child(3)
+ {
+     bottom: 0;
+     right: -100%;
+     width: 100%;
+     height: 2px;
+     background: linear-gradient(180deg,transparent,#2196f3);
+ }
+ 
+ .skill-text a:hover span:nth-child(3){
+     right: 100%;
+     transition: 1s;
+ }
+ 
+ .skill-text a span:nth-child(2)
+ {
+     top: -100%;
+     right: 0;
+     width: 2px;
+     height: 100%;
+     background: linear-gradient(270deg,transparent,#2196f3);
+ }
+ 
+ .skill-text a:hover span:nth-child(2){
+     top: 100%;
+     transition: 1s;
+ }
+ 
+ .skill-text a span:nth-child(4)
+ {
+     bottom: -100%;
+     left: 0;
+     width: 2px;
+     height: 100%;
+     background: linear-gradient(360deg,transparent,#2196f3);
+ }
+ 
+ .skill-text a:hover span:nth-child(4){
+     bottom: 100%;
+     transition: 1s;
+ }
+
+#skill .skill-ratio{
+    width: 70%;
+    margin: 60px auto;
+    color: #000;
+    padding: 40px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+}
+
+#skill h3{
+    margin: 5px;
+}
+
+#skill li{
+    margin: 0 20px;
+    padding: 10px;
+    list-style: none;
+}
+
+#skill .bar{
+    background: #353535;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+#skill .bar:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+}
+
+#skill .bar span{
+    height: 20px;
+    float: left;
+    background: #2196f3;
+}
+
+#skill .bar .html{
+    text-align: center;
+    width: 90%;
+    animation: html 3s;
+}
+
+#skill .bar .css{
+    text-align: center;
+    width: 80%;
+    animation: html 3s;
+}
+
+
+#skill .bar .python{
+    text-align: center;
+    width: 70%;
+    animation: html 3s;
+}
+
+
+#skill .bar .java{
+    text-align: center;
+    width: 60%;
+    animation: html 3s;
+}
+
+/* start style project */
+
+#project{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    margin-top: 100px;
+}
+
+.project-text{
+    display: flex;
+    justify-content: center;
+}
+
+.project-text a{
+    margin-top: 50px;
+    position: relative;
+    display: inline-block;
+    padding: 15px 40px;
+    text-align: center;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 30px;
+    overflow: hidden;
+    transition: 0.2s;
+ }
+ 
+ .project-text a:hover{
+     color: #fff;
+     background-color: #2196f3;
+     border-radius: 5px;
+     transition-delay: 0.6s;
+ }
+ 
+ .project-text a span{
+     position: absolute;
+     display: block;
+ }
+ 
+ .project-text a span:nth-child(1)
+ {
+     top: 0;
+     left: -100%;
+     width: 100%;
+     height: 2px;
+     background: linear-gradient(90deg,transparent,#2196f3);
+ }
+ 
+ .project-text a:hover span:nth-child(1){
+     left: 100%;
+     transition: 1s;
+ }
+ 
+ .project-text a span:nth-child(3)
+ {
+     bottom: 0;
+     right: -100%;
+     width: 100%;
+     height: 2px;
+     background: linear-gradient(180deg,transparent,#2196f3);
+ }
+ 
+ .project-text a:hover span:nth-child(3){
+     right: 100%;
+     transition: 1s;
+ }
+ 
+ .project-text a span:nth-child(2)
+ {
+     top: -100%;
+     right: 0;
+     width: 2px;
+     height: 100%;
+     background: linear-gradient(270deg,transparent,#2196f3);
+ }
+ 
+ .project-text a:hover span:nth-child(2){
+     top: 100%;
+     transition: 1s;
+ }
+ 
+ .project-text a span:nth-child(4)
+ {
+     bottom: -100%;
+     left: 0;
+     width: 2px;
+     height: 100%;
+     background: linear-gradient(360deg,transparent,#2196f3);
+ }
+ 
+ .project-text a:hover span:nth-child(4){
+     bottom: 100%;
+     transition: 1s;
+ }
+
+.card{
+    width: 380px;
+    height: 250px;
+    padding: 2rem 1rem;
+    background: #fff;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    transition: 0.5s ease-in-out;
+    margin-bottom: 300px;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card:hover{
+    transform: translateY(20px);
+}
+
+.card::before{
+    content:"" ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,176,155,0.5),rgba(150,201,61,1));
+    z-index: 2;
+    transition: 0.5s all;
+    opacity: 0;
+}
+
+.card:hover:before{
+    opacity: 1;
+}
+
+.card .info{
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s all;
+}
+
+.card:hover .info{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.card .info h1{
+    margin: 0;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.info .text{
+    font-size: 40px;
+    color: #000;
+}
+
+.card .info .btn{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background: #fff;
+    border-radius: 5px;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s o;
+}
+
+#contact .contact-text{
+    display: flex;
+    justify-content: center;
+}
+
+
+.contact-text a{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    align-items: center;
+    display: inline-block;
+    padding: 15px 40px;
+    text-align: center;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 30px;
+    overflow: hidden;
+    transition: 0.2s;
+ }
+ 
+ .contact-text a:hover{
+     color: #fff;
+     background-color: #2196f3;
+     border-radius: 5px;
+     transition-delay: 0.6s;
+ }
+ 
+ .contact-text a span{
+     position: absolute;
+     display: block;
+ }
+ 
+ .contact-text a span:nth-child(1)
+ {
+     top: 0;
+     left: -100%;
+     width: 100%;
+     height: 2px;
+     background: linear-gradient(90deg,transparent,#2196f3);
+ }
+ 
+ .contact-text a:hover span:nth-child(1){
+     left: 100%;
+     transition: 1s;
+ }
+ 
+ .contact-text a span:nth-child(3)
+ {
+     bottom: 0;
+     right: -100%;
+     width: 100%;
+     height: 2px;
+     background: linear-gradient(180deg,transparent,#2196f3);
+ }
+ 
+ .contact-text a:hover span:nth-child(3){
+     right: 100%;
+     transition: 1s;
+ }
+ 
+ .contact-text a span:nth-child(2)
+ {
+     top: -100%;
+     right: 0;
+     width: 2px;
+     height: 100%;
+     background: linear-gradient(270deg,transparent,#2196f3);
+ }
+ 
+ .contact-text a:hover span:nth-child(2){
+     top: 100%;
+     transition: 1s;
+ }
+ 
+ .contact-text a span:nth-child(4)
+ {
+     bottom: -100%;
+     left: 0;
+     width: 2px;
+     height: 100%;
+     background: linear-gradient(360deg,transparent,#2196f3);
+ }
+ 
+ .contact-text a:hover span:nth-child(4){
+     bottom: 100%;
+     transition: 1s;
+ }
+
+ #contact{
+     width: 100%;
+     height: 100vh;
+ }
+
+ .form{
+     text-align: center;
+     align-items: center;
+     margin: auto;
+     padding-top: 60px;
+     width: 60%;
+     height: 60vh;
+     box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+ }
+
+ .form input{
+    text-align: center;
+    margin: 10px 20px;
+    padding: 10px;
+    border-radius: 5px;
+ }
+
+
+ .form button{
+    margin-top: 30px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 3px;
+ }
+
+ i{
+     margin-top: 40px;
+     font-size: 30px;
+ }
