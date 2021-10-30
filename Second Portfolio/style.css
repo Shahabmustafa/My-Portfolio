@@ -1,0 +1,1104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 50px;
+    width: 100%;
+}
+.nav-item{
+    margin: 20px;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0.0,1),rgba(0,0,0,0.1)),url(image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* home styling */
+
+#home{
+    width: 100%;
+    height: 65vh;
+}
+
+.home-text {
+    color: gray;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 150px;
+}
+
+.image{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.image img{
+    border-radius: 50%;
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+/* about styling */
+
+#about{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#about .head-text{
+    width: 60%;
+    box-sizing: 1px 2px 3px gray;
+    align-items: center;
+    margin-top: 200px;
+}
+
+#about .head-text h1{
+    margin-bottom: 30px;
+    color: rgb(168, 167, 167);
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#about .head-text p{
+    color: rgb(168, 162, 162);
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+#skills{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;  
+}
+
+#skills .skill-border{
+    width: 70%;
+    height: 50vh;
+    margin-top: 200px;
+}
+
+#skills .skill-border h1{
+    color: rgba(168, 162, 162);
+    text-align: center;
+    font-size: 40px;
+}
+
+.html{
+    width: 100%;
+    height: 18px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.html p{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: gray;
+    width: 90%;
+    margin-top: 30px;
+    border-radius: 10px;
+    height: 18px;
+    font-size: 15px;
+}
+
+
+.css{
+    width: 100%;
+    height: 18px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.css p{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: gray;
+    width: 80%;
+    border-radius: 10px;
+    height: 18px;
+    font-size: 15px;
+}
+
+
+.python{
+    width: 100%;
+    height: 18px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.python p{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: gray;
+    width: 75%;
+    border-radius: 10px;
+    height: 18px;
+    font-size: 15px;
+}
+
+.java{
+    width: 100%;
+    height: 18px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.java p{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: gray;
+    width: 75%;
+    border-radius: 10px;
+    height: 18px;
+    font-size: 15px;
+}
+
+.react{
+    width: 100%;
+    height: 18px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.react p{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: gray;
+    width: 60%;
+    border-radius: 10px;
+    height: 18px;
+    font-size: 15px;
+}
+
+        /* project styling */
+
+#project{
+    width: 100%;
+    height: 100vh;
+}
+
+.project-text h2{
+    color: rgba(168, 162, 162);
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.project{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 250px 250px 250px;
+    justify-content: center;
+    grid-gap: 20px;
+    background-color: #000;
+    margin-top: 30px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.project .whether{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 25px gray;
+}
+.project .whether:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(download.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 250px;
+}
+
+.whether a{
+    text-transform: none;
+    color: gray;
+}
+
+.project .todo{
+    border: 1px solid #fff; 
+    border-radius: 10px;
+    box-shadow: 1px 1px 25px gray;
+}
+
+.project .todo:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(download1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 250px;
+}
+
+.todo a{
+    text-transform: none;
+    color: gray;
+}
+
+.project .timer{
+    border: 1px solid #fff;  
+    border-radius: 10px;
+    box-shadow: 1px 1px 25px gray;
+}
+
+.project .timer:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 250px;
+}
+
+
+.timer a{
+    text-transform: none;
+    color: gray;
+}
+
+.project .weight{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 25px gray;
+}
+
+.project .weight:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(download2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 250px;
+}
+
+.weight a{
+    text-transform: none;
+    color: gray;
+}
+
+.project .bisep{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 25px gray;
+}
+
+.project .bisep:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(download3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 250px;
+}
+
+.bisep a{
+    text-transform: none;
+    color: gray;
+}
+
+.project .calculatar{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 25px gray;
+}
+
+.project .calculatar:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(download.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 250px;
+}
+
+.calculatar a{
+    text-transform: none;
+    color: gray;
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.contact-text h2{
+    text-align: center;
+    font-size: 40px;
+    color: gray;
+    margin-top: 200px;
+}
+
+form{
+    margin-top: 70px;
+}
+
+form input{
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    color: gray;
+    border: none;
+}
+
+.button{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    color: gray;
+    border: none;
+
+}
+
+#page-end{
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+}
+
+#page-end p{
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+@media only screen and (max-width:1150px) {
+    
+    #home{
+        width: 100%;
+        height: 70vh;
+    }
+
+    .image img{
+        width: 150px;
+        height: 150px;
+    }
+
+    #about{
+        width: 100%;
+        height: 80vh;
+    }
+
+    #skills{
+        width: 100%;
+        height: 100vh;
+    }
+
+    #project{
+        width: 100%;
+        height: 110vh;
+    }
+
+    #contact{
+        width: 100%;
+        height: 110vh;
+        margin-top: 150px;
+    }
+
+    #page-end p{
+        color: gray;
+        font-size: 15px;
+        text-align: center;
+        padding-top: 40px;
+    }    
+
+
+    .project{
+        display: grid;
+        grid-template-columns: 350px 350px;
+        grid-template-rows: 250px 250px;
+        justify-content: center;
+        grid-gap: 10px;
+        margin-top: 30px;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .project .whether{
+        width: 350px;
+        height: 250px;
+    }
+
+    .project .todo{
+        width: 350px;
+        height: 250px;
+    }
+
+    .project .timer{
+        width: 350px;
+        height: 250px;
+    }
+
+    .project .weight{
+        width: 350px;
+        height: 250px;
+    }
+
+    .project .bisep{
+        width: 350px;
+        height: 250px;
+    }
+
+    .project .calculatar{
+        width: 350px;
+        height: 250px;
+    }
+
+    #about .head-text p{
+        font-size: 13px;
+
+    }
+
+}
+
+@media only screen and (max-width:750px) {
+
+    /* Home media query */
+
+    #home{
+        width: 100%;
+        height: 60vh;
+    }
+
+    .home-text h1{
+        font-size: 24px;
+    }
+
+    .home-text {
+        color: gray;
+        text-align: center;
+        font-size: 15px;
+        margin-top: 150px;
+    }
+    
+    .image{
+        text-align: center;
+        margin-top: 70px;
+    }
+    
+    .image img{
+        border-radius: 50%;
+        margin-top: 20px;
+    }
+
+/* About media query */
+
+#about{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#about .head-text{
+    width: 60%;
+    height: 50vh;
+    box-sizing: 1px 2px 3px gray;
+    align-items: center;
+    margin-top: 200px;
+}
+
+#about .head-text h1{
+    margin-bottom: 30px;
+    color: rgb(168, 167, 167);
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#about .head-text p{
+    color: rgb(168, 162, 162);
+    font-size: 10px;
+    margin-top: 50px;
+}
+
+
+/* Skills media query */
+
+#skills{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;  
+}
+
+#skills .skill-border{
+    width: 80%;
+    height: 50vh;
+    margin-top: 200px;
+}
+
+#skills .skill-border h1{
+    color: rgba(168, 162, 162);
+    text-align: center;
+    font-size: 30px;
+}
+
+.html{
+    width: 100%;
+    height: 13px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.html p{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: gray;
+    width: 90%;
+    margin-top: 30px;
+    border-radius: 10px;
+    height: 13px;
+    font-size: 12px;
+}
+
+
+.css{
+    width: 100%;
+    height: 13px;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+
+.css p{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: gray;
+    width: 80%;
+    border-radius: 10px;
+    height: 13px;
+    font-size: 12px;
+}
+
+
+.python{
+    width: 100%;
+    height: 13px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.python p{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: gray;
+    width: 75%;
+    border-radius: 10px;
+    height: 13px;
+    font-size: 12px;
+}
+
+.java{
+    width: 100%;
+    height: 13px;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+
+.java p{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: gray;
+    width: 75%;
+    border-radius: 10px;
+    height: 13px;
+    font-size: 12px;
+}
+
+.react{
+    width: 100%;
+    height: 13px;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+
+.react p{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: gray;
+    width: 60%;
+    height: 13px;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+    /* Project media query */
+
+    #project{
+        width: 100%;
+        height: 200vh;
+    }
+
+    .project-text h2{
+        color: rgba(168, 162, 162);
+        text-align: center;
+        font-size: 30px;
+        margin-top: 100px;
+    }
+
+    .project{
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-rows: 250px;
+        justify-content: center;
+        grid-gap: 10px;
+        margin-top: 30px;
+        text-align: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .project .whether{
+        width: 300px;
+        height: 250px;
+    }
+
+    .project .whether:hover{
+        width: 300px;
+        height: 250px;
+    }
+
+    .project .todo{
+        width: 300px;
+        height: 250px;
+    }
+
+    .project .todo:hover{
+        width: 300px;
+        height: 250px;
+    }
+
+    .project .timer{
+        width: 300px;
+        height: 250px;
+    }
+
+    .project .timer:hover{
+        width: 300px;
+        height: 250px;
+    }
+
+    .project .weight{
+        width: 300px;
+        height: 250px;
+    }
+
+    .project .weight:hover{
+        width: 300px;
+        height: 250px;
+    }
+
+    .project .bisep{
+        width: 300px;
+        height: 250px;
+    }
+
+    .project .bisep:hover{
+        width: 300px;
+        height: 250px;
+    }
+
+    .project .calculatar{
+        width: 300px;
+        height: 250px;
+    }
+
+    .project .calculatar:hover{
+        width: 300px;
+        height: 250px;
+    }
+
+    /* contact media query */
+
+    #contact{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 90vh;
+    }
+    
+    .contact-text h2{
+        text-align: center;
+        font-size: 30px;
+        color: gray;
+        margin-top: 200px;
+    }
+    
+    form{
+        margin-top: 70px;
+    }
+    
+    form input{
+        outline: none;
+        width: 100%;
+        padding: 4px;
+        margin: 5px;
+        border-radius: 5px;
+        color: gray;
+        border: none;
+    }
+    
+    .button{
+        width: 100%;
+        padding: 4px;
+        margin: 5px;
+        border-radius: 5px;
+        color: gray;
+        border: none;
+    }
+
+    #page-end p{
+        color: gray;
+        font-size: 12px;
+        text-align: center;
+        padding-top: 40px;
+    }    
+}
+
+
+@media only screen and (max-width:580px){
+     /* Home media query */
+
+     #home{
+        width: 100%;
+        height: 40vh;
+    }
+
+    .home-text h1{
+        font-size: 18px;
+    }
+
+    .home-text {
+        color: gray;
+        text-align: center;
+        font-size: 12px;
+    }
+    
+    .image{
+        text-align: center;
+        margin-top: 70px;
+    }
+    
+    .image img{
+        border-radius: 50%;
+        margin-top: 20px;
+        width: 100px;
+        height: 100px;
+    }
+
+/* About media query */
+
+#about{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#about .head-text{
+    width: 60%;
+    height: 100vh;
+    box-sizing: 1px 2px 3px gray;
+    align-items: center;
+    margin-top: 200px;
+}
+
+#about .head-text h1{
+    margin-bottom: 30px;
+    color: rgb(168, 167, 167);
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#about .head-text p{
+    color: rgb(168, 162, 162);
+    font-size: 10px;
+    margin-top: 50px;
+}
+
+
+/* Skills media query */
+
+#skills{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;  
+}
+
+#skills .skill-border{
+    width: 80%;
+    height: 50vh;
+    margin-top: 200px;
+}
+
+#skills .skill-border h1{
+    color: rgba(168, 162, 162);
+    text-align: center;
+    font-size: 18px;
+}
+
+.html{
+    width: 100%;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.html p{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: gray;
+    width: 90%;
+    margin-top: 30px;
+    border-radius: 10px;
+    height: 10px;
+    font-size: 9px;
+}
+
+
+.css{
+    width: 100%;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+
+.css p{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: gray;
+    width: 80%;
+    border-radius: 10px;
+    height: 10px;
+    font-size: 9px;
+}
+
+
+.python{
+    width: 100%;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.python p{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: gray;
+    width: 75%;
+    border-radius: 10px;
+    height: 10px;
+    font-size: 9px;
+}
+
+.java{
+    width: 100%;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+
+.java p{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: gray;
+    width: 75%;
+    border-radius: 10px;
+    height: 10px;
+    font-size: 9px;
+}
+
+.react{
+    width: 100%;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+
+.react p{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: gray;
+    width: 60%;
+    height: 10px;
+    font-size: 9px;
+    border-radius: 10px;
+}
+
+    /* Project media query */
+
+    #project{
+        width: 100%;
+        height: 130vh;
+    }
+
+    .project-text h2{
+        color: rgba(168, 162, 162);
+        text-align: center;
+        font-size: 18px;
+        /* margin-top: 100px */
+    }
+
+    .project{
+        display: grid;
+        grid-template-columns: 250px;
+        grid-template-rows: 150px;
+        justify-content: center;
+        grid-gap: 10px;
+        margin-top: 30px;
+        text-align: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .project .whether{
+        width: 250px;
+        height: 150px;
+    }
+
+    .project .whether:hover{
+        width: 250px;
+        height: 150px;
+    }
+
+    .project .todo{
+        width: 250px;
+        height: 150px;
+    }
+
+    .project .todo:hover{
+        width: 250px;
+        height: 150px;
+    }
+
+    .project .timer{
+        width: 250px;
+        height: 150px;
+    }
+
+    .project .timer:hover{
+        width: 250px;
+        height: 150px;
+    }
+
+    .project .weight{
+        width: 250px;
+        height: 150px;
+    }
+
+    .project .weight:hover{
+        width: 250px;
+        height: 150px;
+    }
+
+    .project .bisep{
+        width: 250px;
+        height: 150px;
+    }
+
+    .project .bisep:hover{
+        width: 250px;
+        height: 150px;
+    }
+
+    .project .calculatar{
+        width: 250px;
+        height: 150px;
+    }
+
+    .project .calculatar:hover{
+        width: 250px;
+        height: 150px;
+    }
+
+    /* contact media query */
+
+    #contact{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 80vh;
+    }
+    
+    .contact-text h2{
+        text-align: center;
+        font-size: 18px;
+        color: gray;
+    }
+    
+    form{
+        margin-top: 70px;
+        margin-left: 50px;
+    }
+    
+    form input{
+        outline: none;
+        width: 70%;
+        padding: 2px;
+        margin: 2px;
+        border-radius: 5px;
+        color: gray;
+        border: none;
+    }
+    
+    .button{
+        width: 70%;
+        padding: 2px;
+        margin: 2px;
+        border-radius: 5px;
+        color: gray;
+        border: none;
+    }
+
+    #page-end p{
+        color: gray;
+        font-size: 12px;
+        text-align: center;
+        padding-top: 40px;
+    }    
+}
