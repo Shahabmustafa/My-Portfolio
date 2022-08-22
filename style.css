@@ -1,0 +1,278 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav .navbar-brand{
+    font-family: 'Dancing Script', cursive;
+}
+
+
+nav .nav-link{
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    /* margin: 10px; */
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('download1.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    scroll-behavior:auto;
+    z-index: 1000;
+}
+
+.home .home-logo .logo{
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+}
+
+.home .home-button{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.home .home-button .whatsapp{
+    color: #25D366;
+    text-decoration: none;
+    padding: 10px 25px 10px 25px;
+    border: 2px solid #25D366;
+    font-family: 'Dancing Script', cursive;
+}
+
+.home .home-button .call{
+    color: #34B7F1;
+    text-decoration: none;
+    padding: 20px;
+    padding: 10px 25px 10px 25px;
+    border: 2px solid #34B7F1;
+    font-family: 'Dancing Script', cursive;
+}
+
+.home .home-button .fa-whatsapp{
+    font-size: 20px;
+    margin: 10px;
+    color: #25D366;
+    border: 1px solid #25D366;
+    /* background-color: #fff; */
+}
+
+.home .home-button .fa-phone{
+    font-size: 20px;
+    margin: 10px;
+    color: #34B7F1;
+    border: 1px solid #34B7F1;
+    /* background-color: #fff; */
+}
+
+/* About css */
+
+.about{
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about .img img{
+    width: 250px;
+    height: 270px;
+    border-radius: 50%;
+}
+
+.about .about-logo h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.about-logo{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+
+.about-logo a{
+    text-decoration: none;
+    color: #000;
+    border: 2px solid #000;
+    padding: 10px 30px 10px 30px;
+}
+
+@media only screen and (max-width: 1025px){
+    .about{
+       display: grid;
+       height: 100vh;
+    }
+
+    .about .img{
+        text-align: center;
+    }
+
+    .about .img img{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .about{
+        display: grid;
+        height: 150vh;
+    }
+
+    .skills-writing{
+        font-size: 20px;
+    }
+
+
+}
+
+/* skills css */
+
+.skills{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('images3.jpeg');
+    background-attachment: fixed;
+}
+
+.skills-img img{
+    width: 320px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.skills-writing h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.skills-writing{
+    color: #fff;
+}
+
+.skills-writing p{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+
+.skills {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 1025px){
+    .skills{
+        display: grid;
+        height: 150vh;
+    }
+
+    .skills-img img{
+        height: 200px;
+        width: 200px;
+    }
+}
+
+
+/* Experience css */
+
+.experince{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+
+.experince .exp-text h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    text-align: center;
+}
+
+.experince .card-3{
+    height: 20vh;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+
+.experince .frame{
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.experince .frame .card-1{
+    height: 30vh;
+    width: 40%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.experince .frame {
+    font-family: 'Dancing Script', cursive;
+}
+
+.experince .frame .card-2{
+    height: 30vh;
+    width: 40%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+#project{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('download0.png');
+    background-attachment: fixed;
+    align-items: center;
+}
+
+#project h1{
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.row img{
+    width: 400px;
+    height: 250px;
+}
+
+.row a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 40px;
+}
